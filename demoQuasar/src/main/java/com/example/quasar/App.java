@@ -19,6 +19,7 @@ import co.paralleluniverse.strands.concurrent.CountDownLatch;
 public class App {
 	public static void main(String[] args) {
 //		final Channel<String> naturals = Channels.newChannel(5000);
+		System.out.println("dev-1测试");
 		CountDownLatch latch = new CountDownLatch(1);
 		long t0 = System.currentTimeMillis();
 		final int num = 100*10000;
