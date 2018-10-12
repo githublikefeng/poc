@@ -23,6 +23,7 @@ public class App {
 		CountDownLatch latch = new CountDownLatch(1);
 		System.out.println("dev-1测试2");
 		long t0 = System.currentTimeMillis();
+		System.out.println("dev-1测试3");
 		final int num = 100*10000;
 		new Thread(new Runnable() {
 			
