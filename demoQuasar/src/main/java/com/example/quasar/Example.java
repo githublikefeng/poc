@@ -26,10 +26,10 @@ public class Example {
 	}
 
 	public static void main(String[] args) {
-
+		System.out.println("dev-2测试1");
 		final Channel<Integer> naturals = Channels.newChannel(-1);
 		final Channel<Integer> squares = Channels.newChannel(-1);
-
+		System.out.println("dev-2测试2");
 		new Fiber<Integer>(new SuspendableRunnable() {
 
 			private static final long serialVersionUID = -5375615253044059317L;
