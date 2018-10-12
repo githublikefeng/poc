@@ -21,6 +21,7 @@ public class App {
 //		final Channel<String> naturals = Channels.newChannel(5000);
 		System.out.println("dev-1测试");
 		CountDownLatch latch = new CountDownLatch(1);
+		System.out.println("dev-1测试2");
 		long t0 = System.currentTimeMillis();
 		final int num = 100*10000;
 		new Thread(new Runnable() {
