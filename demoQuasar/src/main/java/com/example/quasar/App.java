@@ -20,7 +20,6 @@ public class App {
 	public static void main(String[] args) {
 //		final Channel<String> naturals = Channels.newChannel(5000);
 		CountDownLatch latch = new CountDownLatch(1);
-		System.out.println("dev-1测试2");
 		long t0 = System.currentTimeMillis();
 		final int num = 100*10000;
 		new Thread(new Runnable() {
